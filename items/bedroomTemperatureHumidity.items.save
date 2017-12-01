@@ -1,0 +1,2 @@
+Number BedroomTemperature "Temperatura [%.1c°]" (Bedroom) {mqtt="<[MQTTHome:myHome/Bedroom/DHT_Temperature:state:default]"}
+Number BedroomHumidity "Umidità [%.1]" (Bedroom) {mqtt="<[MQTTHome:myHome/Bedroom/DHT_Humidity:state:default]"}

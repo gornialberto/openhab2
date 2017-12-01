@@ -1,0 +1,9 @@
+sitemap main label="Casa Gorni" {
+    Frame label="Date" {
+        Text item=Date
+    }
+    Frame label="Camera Piano Terra" {
+        Text item=BedroomTemperature
+        Text item=BedroomHumidity	
+}
+}
