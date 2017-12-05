@@ -5,4 +5,9 @@ sitemap default label="Casa Gorni"
         Text item=BedroomTemperature
         Text item=BedroomHumidity	
 	}
+    Frame label="Luci Natale"
+    {
+        Switch item=Switch1 
+        Switch item=Switch2
+    }
 }
