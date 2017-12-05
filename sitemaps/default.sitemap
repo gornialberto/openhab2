@@ -5,6 +5,25 @@ sitemap default label="Casa Gorni"
         Text item=BedroomTemperature
         Text item=BedroomHumidity	
 	}
+    Frame label="Cameretta Bimbe" 
+    {
+        Text item=KidsBedroomTemperature
+        Text item=KidsBedroomHumidity	
+	}
+    Frame label="Esterno" 
+    {
+        Text item=PorticatoTemperature
+        Text item=PorticatoHumidity	
+        Text item=PorticatoLuminosity
+        Text item=PorticatoPressure	
+	}
+    Frame label="Riscaldamento" 
+    {
+        Text item=ManifoldAHigh
+        Text item=ManifoldALow	
+        Text item=ManifoldBHigh
+        Text item=ManifoldBLow	
+	}
     Frame label="Luci Natale"
     {
         Switch item=SwitchLuciNataleRinghieraGiardino 
