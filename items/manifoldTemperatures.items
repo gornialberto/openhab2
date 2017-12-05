@@ -1,11 +1,11 @@
-Number ManifoldAHigh "Mandata Piano Terra [%f]" <radiator> 
+Number ManifoldAHigh "Mandata Piano Terra [%.1f]" <radiator> 
 {mqtt="<[MQTTHome:myHome/manifold/ZoneAHotTemperature:state:default]"}
 
-Number ManifoldALow "Ritorno Piano Terra [%f]" <radiator> 
+Number ManifoldALow "Ritorno Piano Terra [%.1f]" <radiator> 
 {mqtt="<[MQTTHome:myHome/manifold/ZoneAColdTemperature:state:default]"}
 
-Number ManifoldBHigh "Mandata Sottoetto [%f]" <radiator> 
+Number ManifoldBHigh "Mandata Sottoetto [%.1f]" <radiator> 
 {mqtt="<[MQTTHome:myHome/manifold/ZoneBHotTemperature:state:default]"}
 
-Number ManifoldBLow "Ritorno Sottoetto [%f]" <radiator> 
+Number ManifoldBLow "Ritorno Sottoetto [%.1f]" <radiator> 
 {mqtt="<[MQTTHome:myHome/manifold/ZoneBColdTemperature:state:default]"}
