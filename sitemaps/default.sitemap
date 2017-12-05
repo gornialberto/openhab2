@@ -12,6 +12,6 @@ sitemap default label="Casa Gorni"
     }
     Frame label="Test"
     {
-        Switch Test_Switch_MQTT
+        Switch item=Test_Switch_MQTT
     }
 }
