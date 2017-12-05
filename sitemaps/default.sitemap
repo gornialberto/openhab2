@@ -7,11 +7,11 @@ sitemap default label="Casa Gorni"
 	}
     Frame label="Luci Natale"
     {
-        Switch item=Switch1 
-        Switch item=Switch2
+        Switch item=SwitchLuciNataleRinghieraGiardino 
+        Switch item=SwitchLuciNataleAlberoGiardino
     }
     Frame label="Test"
     {
-        Switch MQTT_Test
+        Switch Test_Switch_MQTT
     }
 }
