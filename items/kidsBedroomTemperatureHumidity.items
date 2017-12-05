@@ -1,5 +1,5 @@
 Number KidsBedroomTemperature "Temperatura [%f]" <temperature> 
 {mqtt="<[MQTTHome:myHome/Kidsroom/DHT_Temperature:state:default]"}
 
-Number KidsBedroomHumidity "Umidità [%f]" <climate> 
+Number KidsBedroomHumidity "Umidità [%f]" <humidity> 
 {mqtt="<[MQTTHome:myHome/Kidsroom/DHT_Humidity:state:default]"}
