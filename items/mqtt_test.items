@@ -1,1 +1,3 @@
-Switch Test_Switch_MQTT "Test Switch MQTT" { mqtt="<[broker:testing/mqtt/topic:state:default], >[broker:testing/mqtt/back-topic:command:*:default]" }  
+Switch Test_Switch_MQTT "Test Switch MQTT" 
+{ mqtt="<[MQTTHome:testing/mqtt/topic:state:default], 
+>[MQTTHome:testing/mqtt/back-topic:command:*:default]" }  
