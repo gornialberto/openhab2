@@ -1,0 +1,9 @@
+{
+      // Specifies the URL or IP address for the openHAB preview. (Use 'localhost' when developing locally)
+  "openhab.host": "2.238.201.154",
+  
+    // Specifies the port for the openHAB preview.
+    "openhab.port": 6888,
+
+    "openhab.lspEnabled": false
+}
