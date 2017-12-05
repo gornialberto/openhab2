@@ -1,2 +1,11 @@
-Switch SwitchLuciNataleRinghieraGiardino "Luci Ringhiera" {mqtt=">[MQTTHome:myHome/bedroom/switch1:command:ON:1],>[MQTTHome:myHome/bedroom/switch1:command:OFF:0],<[MQTTHome:myHome/bedroom/switch1:state:ON:1],<[MQTTHome:myHome/bedroom/switch1:state:OFF:0]"}
-Switch SwitchLuciNataleAlberoGiardino "Luci Albero" {mqtt=">[MQTTHome:myHome/bedroom/switch2:command:ON:1],>[MQTTHome:myHome/bedroom/switch2:command:OFF:0],<[MQTTHome:myHome/bedroom/switch2:state:ON:1],<[MQTTHome:myHome/bedroom/switch2:state:OFF:0]"}
+Switch SwitchLuciNataleRinghieraGiardino "Luci Ringhiera" <light>
+ {mqtt=">[MQTTHome:myHome/SNF_DUAL_GIARDINO_NATALE/data:command:ON:1],
+ >[MQTTHome:myHome/SNF_DUAL_GIARDINO_NATALE/data:command:OFF:0],
+ <[MQTTHome:myHome/SNF_DUAL_GIARDINO_NATALE/data:ON:1],
+ <[MQTTHome:myHome/SNF_DUAL_GIARDINO_NATALE/data:state:OFF:0]"}
+ 
+Switch SwitchLuciNataleAlberoGiardino "Luci Albero" <light>
+{mqtt=">[MQTTHome:myHome/SNF_DUAL_GIARDINO_NATALE/data:command:ON:1],
+>[MQTTHome:myHome/SNF_DUAL_GIARDINO_NATALE/data:command:OFF:0],
+<[MQTTHome:myHome/SNF_DUAL_GIARDINO_NATALE/data:state:ON:1],
+<[MQTTHome:myHome/SNF_DUAL_GIARDINO_NATALE/data:state:OFF:0]"}
