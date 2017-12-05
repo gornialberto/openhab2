@@ -10,4 +10,8 @@ sitemap default label="Casa Gorni"
         Switch item=Switch1 
         Switch item=Switch2
     }
+    Frame label="Test"
+    {
+        Switch MQTT_Test
+    }
 }

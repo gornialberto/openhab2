@@ -1,0 +1,1 @@
+Switch MQTT_Test "Test Switch MQTT" { mqtt="<[broker:testing/mqtt/topic:state:default], >[broker:testing/mqtt/back-topic:command:*:default]" }  
