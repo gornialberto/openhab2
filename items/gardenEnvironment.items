@@ -1,11 +1,11 @@
-Number PorticatoTemperature "Temperatura [%]" <temperature> 
+Number PorticatoTemperature "Temperatura [%f]" <temperature> 
 {mqtt="<[MQTTHome:myHome/Porticato/DHT_Temperature:state:default]"}
 
-Number PorticatoHumidity "Umidità [%]" <climate> 
+Number PorticatoHumidity "Umidità [%f]" <climate> 
 {mqtt="<[MQTTHome:myHome/Porticato/DHT_Humidity:state:default]"}
 
-Number PorticatoLuminosity "Luminosità [%]" <climate> 
+Number PorticatoLuminosity "Luminosità [%f]" <climate> 
 {mqtt="<[MQTTHome:myHome/Porticato/TLS_LUX:state:default]"}
 
-Number PorticatoPressure "Umidità [%]" <climate> 
+Number PorticatoPressure "Umidità [%f]" <climate> 
 {mqtt="<[MQTTHome:myHome/Porticato/BMP_Pressure:state:default]"}
