@@ -7,5 +7,5 @@ Number PorticatoHumidity "Umidità [%.1f]" <humidity>
 Number PorticatoLuminosity "Luminosità [%.0f]" <sun> 
 {mqtt="<[MQTTHome:myHome/Porticato/TLS_LUX:state:default]"}
 
-Number PorticatoPressure "Umidità [%.1f]" <pressure> 
+Number PorticatoPressure "Pressione [%.1f]" <pressure> 
 {mqtt="<[MQTTHome:myHome/Porticato/BMP_Pressure:state:default]"}
