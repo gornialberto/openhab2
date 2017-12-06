@@ -10,6 +10,11 @@ sitemap default label="Casa Gorni"
         Text item=KidsBedroomTemperature
         Text item=KidsBedroomHumidity	
 	}
+    Frame label="Sala" 
+    {
+        Text item=LivingRoomTemperature
+        Text item=LivingRoomHumidity	
+	}
     Frame label="Esterno" 
     {
         Text item=PorticatoTemperature
