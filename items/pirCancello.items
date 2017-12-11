@@ -1,2 +1,2 @@
-Number PIRCancello "PIR Cancello" 
+Contact PIRCancello "PIR Cancello [%]" <motion>
 { mqtt="<[MQTTHome:myHome/ESP_Sala/PIREsterno/Switch:state:default]" }  
