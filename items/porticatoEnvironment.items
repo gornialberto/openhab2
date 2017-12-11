@@ -1,0 +1,11 @@
+Number PorticatoTemperature "Temperatura [%.1f]" <temperature> 
+{mqtt="<[MQTTHome:myHome/ESP_Porticato/T_H/Temperature:state:default]"}
+
+Number PorticatoHumidity "Umidità [%.1f]" <humidity> 
+{mqtt="<[MQTTHome:myHome/ESP_Porticato/T_H/Humidity:state:default]"}
+
+Number PorticatoPressure "Pressione [%.1f]" <pressure> 
+{mqtt="<[MQTTHome:myHome/ESP_Porticato/P/Pressure:state:default]"}
+
+Number PorticatoBoardStatus "Board Status [%]" <status> 
+{mqtt="<[MQTTHome:myHome/ESP_Porticato/status:state:default]"}

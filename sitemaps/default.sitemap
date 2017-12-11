@@ -19,9 +19,9 @@ sitemap default label="Casa Gorni"
     {
         Text item=PorticatoTemperature
         Text item=PorticatoHumidity	
-        Text item=PorticatoLuminosity
         Text item=PorticatoPressure	
-	}
+	    Text item=Luminosity
+    }
     Frame label="Riscaldamento" 
     {
         Text item=ManifoldAHigh
@@ -34,8 +34,8 @@ sitemap default label="Casa Gorni"
         Switch item=SwitchLuciNataleRinghieraGiardino 
         Switch item=SwitchLuciNataleAlberoGiardino
     }
-    Frame label="Test"
+    Frame label="PIR Cancello"
     {
-        Switch item=Test_Switch_MQTT
+        Switch item=PIRCancello
     }
 }

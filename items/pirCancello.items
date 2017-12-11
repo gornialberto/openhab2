@@ -1,0 +1,2 @@
+Number PIRCancello "PIR Cancello" 
+{ mqtt="<[MQTTHome:myHome/ESP_Sala/PIREsterno/Switch:state:default]" }  

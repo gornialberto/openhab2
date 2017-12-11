@@ -1,0 +1,5 @@
+Number Luminosity "Luminosità [%.0f]" <sun> 
+{mqtt="<[MQTTHome:myHome/ESP_lux/Lux/Lux:state:default]"}
+
+Number LuminosityBoardStatus "Board Status [%]" <status> 
+{mqtt="<[MQTTHome:myHome/ESP_lux/status:state:default]"}
