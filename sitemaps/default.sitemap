@@ -33,9 +33,6 @@ sitemap default label="Casa Gorni"
     {
         Switch item=SwitchLuciNataleRinghieraGiardino 
         Switch item=SwitchLuciNataleAlberoGiardino
-    }
-    Frame label="PIR Cancello"
-    {
-        Switch item=PIRCancello
+        Switch item=SwitchLuciNataleAlberoSala
     }
 }

@@ -9,3 +9,9 @@ Switch SwitchLuciNataleAlberoGiardino "Luci Albero" <light>
 >[MQTTHome:myHome/SNF_DUAL_GIARDINO_NATALE/relay/0/set:command:OFF:0],
 <[MQTTHome:myHome/SNF_DUAL_GIARDINO_NATALE/relay/0:state:ON:1],
 <[MQTTHome:myHome/SNF_DUAL_GIARDINO_NATALE/relay/0:state:OFF:0]"}
+
+Switch SwitchLuciNataleAlberoSala "Albero Sala" <light>
+{mqtt=">[MQTTHome:myHome/ESPURNA_AlberoNatale/relay/0/set:command:ON:1],
+>[MQTTHome:myHome/ESPURNA_AlberoNatale/relay/0/set:command:OFF:0],
+<[MQTTHome:myHome/ESPURNA_AlberoNatale/relay/0:state:ON:1],
+<[MQTTHome:myHome/ESPURNA_AlberoNatale/relay/0:state:OFF:0]"}
