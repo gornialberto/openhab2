@@ -35,7 +35,7 @@ sitemap default label="Casa Gorni"
     //    Switch item=SwitchLuciNataleAlberoGiardino
     //    Switch item=SwitchLuciNataleAlberoSala
     //}
-	Frame label="Riscaldamento" 
+	Frame label="Prese Comandate" 
     {
         Switch item=SwitchLavastoviglie
         Text item=LavastoviglieConsumo	
