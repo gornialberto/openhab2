@@ -39,5 +39,6 @@ sitemap default label="Casa Gorni"
     {
         Switch item=SwitchLavastoviglie
         Text item=LavastoviglieConsumo	
+		Switch item=SwitchVentoleMobile
 	}
 }
