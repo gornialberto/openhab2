@@ -1,0 +1,3 @@
+Number ConsumoIstantaneoCasa "Consumo Istantaneo [%.0f]" <energy> 
+{mqtt="<[MQTTHome:servicelocation/57a833b3-d672-11e7-ac58-022d286959f5/realtime:state:default]"}
+ 

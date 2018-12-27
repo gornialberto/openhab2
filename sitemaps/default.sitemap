@@ -29,16 +29,20 @@ sitemap default label="Casa Gorni"
         Text item=ManifoldBHigh
         Text item=ManifoldBLow	
 	}
-    //Frame label="Luci Natale"
-    //{
-    //    Switch item=SwitchLuciNataleRinghieraGiardino 
-    //    Switch item=SwitchLuciNataleAlberoGiardino
-    //    Switch item=SwitchLuciNataleAlberoSala
-    //}
+    Frame label="Luci Natale"
+    {
+        Switch item=SwitchLuciNataleRinghieraGiardino 
+        Switch item=SwitchLuciNataleAlberoGiardino
+        Switch item=SwitchLuciNataleAlberoSala
+    }
 	Frame label="Prese Comandate" 
     {
-        Switch item=SwitchLavastoviglie
-        Text item=LavastoviglieConsumo	
+        Switch item=SwitchLavastoviglie	
 		Switch item=SwitchVentoleMobile
+	}
+    Frame label="Consumo Casa" 
+    {
+        Text item=ConsumoIstantaneoCasa
+        Text item=LavastoviglieConsumo
 	}
 }
