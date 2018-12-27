@@ -4,6 +4,6 @@ when
 then
 	if (ConsumoIstantaneoCasa.state > 2000) {
 	sendNotification("gorni.alberto@gmail.com",
-	"ATTENZIONE Superati 4kW!!!")
+	"ATTENZIONE Superati 4kW!!!") 
 	}
-    
+end
