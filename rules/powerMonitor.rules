@@ -7,7 +7,7 @@ then
 	}
 
     if (ConsumoIstantaneoCasa.state < 4000) {
-        ConsumptionAlarm.sendCommand(OFF)
+        //ConsumptionAlarm.sendCommand(OFF)
 	}
 end
 
