@@ -2,11 +2,11 @@ rule "4kW Monitoring"
 when
 	Item ConsumoIstantaneoCasa changed
 then
-	if (ConsumoIstantaneoCasa.state > 4000) {
+	if (ConsumoIstantaneoCasa.state >= 4000) {
         ConsumptionAlarm.sendCommand(ON)
 	}
 
-    if (ConsumoIstantaneoCasa.state > 2000) {
+    if (ConsumoIstantaneoCasa.state < 4000) {
         ConsumptionAlarm.sendCommand(OFF)
 	}
 end
