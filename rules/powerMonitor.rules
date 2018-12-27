@@ -2,7 +2,7 @@ rule "4kwNotification"
 when
 	Item ConsumoIstantaneoCasa changed
 then
-	if (ConsumoIstantaneoCasa.state > 2000) {
+	if (ConsumoIstantaneoCasa.state > 4000) {
 	sendBroadcastNotification("ATTENZIONE Superati 4kW!!!") 
 	}
 end
