@@ -1,3 +1,5 @@
-Number ConsumoIstantaneoCasa "Consumo Istantaneo [%.0f]" <energy> 
-{mqtt="<[MQTTHome:servicelocation/57a833b3-d672-11e7-ac58-022d286959f5/realtime:state:default]"}
+Number ConsumoIstantaneoCasa "Consumo Istantaneo tot. [%.0f]" <energy> 
+{mqtt="<[MQTTHome:servicelocation/57a833b3-d672-11e7-ac58-022d286959f5/realtime:state:JSONPATH($.totalPower)]"}
  
+ Number VoltageCasa "Volt [%.0f]" <energy> 
+{mqtt="<[MQTTHome:servicelocation/57a833b3-d672-11e7-ac58-022d286959f5/realtime:state:JSONPATH($.voltages.voltage)]"}
