@@ -1,8 +1,19 @@
-rule "4kwNotification"
+rule "4kW Monitoring"
 when
 	Item ConsumoIstantaneoCasa changed
 then
-	if (ConsumoIstantaneoCasa.state > 4000) {
-	sendBroadcastNotification("ATTENZIONE Superati 4kW!!!") 
+	if (ConsumoIstantaneoCasa.state > 4000) & (ConsumptionAlarm.state = OFF) {
+        postUpdate.ConsumptionAlarm(ON)
 	}
+
+    if (ConsumoIstantaneoCasa.state > 2000) & (ConsumptionAlarm.state = ON) {
+        postUpdate.ConsumptionAlarm(OFF)
+	}
+end
+
+rule "4kW Alert"
+when
+	item ConsumptionAlarm changed from OFF to ON
+		then
+			//cdRancilio = 30
 end

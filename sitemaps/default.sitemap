@@ -43,6 +43,7 @@ sitemap default label="Casa Gorni"
     Frame label="Consumo Casa" 
     {
         Text item=ConsumoIstantaneoCasa
+        Text item=ConsumptionAlarm label="4kW Alert: [%s]"
         Text item=VoltageCasa
         Text item=LavastoviglieConsumo
 	}
