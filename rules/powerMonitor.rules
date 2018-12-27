@@ -13,7 +13,7 @@ end
 
 rule "4kW Alert"
 when
-	item ConsumptionAlarm changed from OFF to ON
+	Item ConsumptionAlarm changed from OFF to ON
 		then
 			//cdRancilio = 30
 end
