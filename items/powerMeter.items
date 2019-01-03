@@ -5,3 +5,4 @@ Number VoltageCasa "Volt [%.0f]" <energy>
 {mqtt="<[MQTTHome:servicelocation/57a833b3-d672-11e7-ac58-022d286959f5/realtime:state:JSONPATH($.voltages[0].voltage)]"}
 
 Switch ConsumptionAlarm "Allarme Consumo" <siren> 
+Switch ConsumptionWarning "Warning Consumo" <siren> 
