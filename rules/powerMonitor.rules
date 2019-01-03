@@ -11,18 +11,20 @@ then
 	}
 end
 
+
 rule "4kW Alert"
 when
 	Item ConsumptionAlarm changed from OFF to ON
-		then
-			sendTelegram("alberto", "Allerta superamento 4kW di consumo elettrico!!!")
+then
+	sendTelegram("alberto", "Allerta superamento 4kW di consumo elettrico!!!")
 end
+
 
 rule "4kW WarningClose"
 when
 	Item ConsumptionAlarm changed from ON to OFF
-		then
-			sendTelegram("alberto", "Rientrato superamento 4kW di consumo elettrico.")
+then
+	sendTelegram("alberto", "Rientrato superamento 4kW di consumo elettrico.")
 end
 
 
@@ -39,11 +41,12 @@ then
 	}
 end
 
+
 rule "3kW Warning"
 when
 	Item ConsumptionWarning changed from OFF to ON
-		then
-			sendTelegram("alberto", "Warning superamento 3kW di consumo elettrico!!!")
+then
+	sendTelegram("alberto", "Warning superamento 3kW di consumo elettrico!!!")
 end
 
 
