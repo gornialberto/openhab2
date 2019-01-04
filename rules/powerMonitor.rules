@@ -17,6 +17,7 @@ when
 	Item ConsumptionAlarm changed from OFF to ON
 then
 	sendTelegram("alberto", "Allerta superamento 4kW di consumo elettrico!!!")
+    sendTelegram("dona", "Allerta superamento 4kW di consumo elettrico!!!")
 end
 
 
