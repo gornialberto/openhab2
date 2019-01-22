@@ -29,25 +29,25 @@ then
 end
 
 
-rule "3kW Monitoring"
+rule "3_5kW Monitoring"
 when
 	Item ConsumoIstantaneoCasa changed
 then
-	if (ConsumoIstantaneoCasa.state >= 3000) {
+	if (ConsumoIstantaneoCasa.state >= 3500) {
         ConsumptionWarning.sendCommand(ON)
 	}
 
-    if (ConsumoIstantaneoCasa.state < 3000) {
+    if (ConsumoIstantaneoCasa.state < 3500) {
         ConsumptionWarning.sendCommand(OFF)
 	}
 end
 
 
-rule "3kW Warning"
+rule "3_5kW Warning"
 when
 	Item ConsumptionWarning changed from OFF to ON
 then
-	sendTelegram("alberto", "Warning superamento 3kW di consumo elettrico!!!")
+	sendTelegram("alberto", "Warning superamento 3.5kW di consumo elettrico!!!")
 end
 
 
