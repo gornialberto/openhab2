@@ -1,5 +1,5 @@
 Number LivingRoomTemperature "Temperatura [%.1f]" <temperature> 
-{mqtt="<[MQTTHome:myHome/ESP_Sala/T_H/Temperature:state:default]"}
+{mqtt="<[MQTTHome:myHome/ESP_LivingRoom/env/Temperature:state:default]"}
 
 Number LivingRoomHumidity "Umidità [%.1f]" <humidity> 
-{mqtt="<[MQTTHome:myHome/ESP_Sala/T_H/Humidity:state:default]"}
+{mqtt="<[MQTTHome:myHome/ESP_LivingRoom/env/Humidity:state:default]"}
