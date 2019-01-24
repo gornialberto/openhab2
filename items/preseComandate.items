@@ -1,16 +1,16 @@
 Switch SwitchLavastoviglie "Lavastoviglie" <washingmachine_2>
- {mqtt=">[MQTTHome:SWITCH_POWER_01/relay/0/set:command:ON:1],
- >[MQTTHome:SWITCH_POWER_01/relay/0/set:command:OFF:0],
- <[MQTTHome:SWITCH_POWER_01/relay/0:state:ON:1],
- <[MQTTHome:SWITCH_POWER_01/relay/0:state:OFF:0]"}
+ {mqtt=">[MQTTHome:myHome/ESPURNA_Lavastoviglie/relay/0/set:command:ON:1],
+ >[MQTTHome:myHome/ESPURNA_Lavastoviglie/relay/0/set:command:OFF:0],
+ <[MQTTHome:myHome/SWITCH_PESPURNA_LavastoviglieOWER_01/relay/0:state:ON:1],
+ <[MQTTHome:myHome/ESPURNA_Lavastoviglie/relay/0:state:OFF:0]"}
  
 Number LavastoviglieConsumo "Consumo Lavastoviglie [%.0f]" <energy> 
-{mqtt="<[MQTTHome:SWITCH_POWER_01/power:state:default]"}
+{mqtt="<[MQTTHome:ESPURNA_Lavastoviglie/power:state:default]"}
 
 
 Switch SwitchVentoleMobile "Ventole Mobile" <fan>
- {mqtt=">[MQTTHome:SWITCH_02/relay/0/set:command:ON:1],
- >[MQTTHome:SWITCH_02/relay/0/set:command:OFF:0],
- <[MQTTHome:SWITCH_02/relay/0:state:ON:1],
- <[MQTTHome:SWITCH_02/relay/0:state:OFF:0]"}
+ {mqtt=">[MQTTHome:myHome/ESPURNA_VentoleCamera/relay/0/set:command:ON:1],
+ >[MQTTHome:myHome/ESPURNA_VentoleCamera/relay/0/set:command:OFF:0],
+ <[MQTTHome:myHome/ESPURNA_VentoleCamera/relay/0:state:ON:1],
+ <[MQTTHome:myHome/ESPURNA_VentoleCamera/relay/0:state:OFF:0]"}
  

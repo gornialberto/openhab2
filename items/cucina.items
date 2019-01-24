@@ -1,0 +1,2 @@
+Number CucinaTemperature "Temperatura [%.1f]" <temperature> 
+{mqtt="<[MQTTHome:myHome/ESP_Cucina/env/Temperature:state:default]"}

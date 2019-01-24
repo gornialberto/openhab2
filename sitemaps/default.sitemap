@@ -15,6 +15,10 @@ sitemap default label="Casa Gorni"
         Text item=LivingRoomTemperature
         Text item=LivingRoomHumidity	
 	}
+    Frame label="Cucina" 
+    {
+        Text item=CucinaTemperature	
+	}
     Frame label="Esterno" 
     {
         Text item=PorticatoTemperature
