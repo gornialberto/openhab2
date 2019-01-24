@@ -37,7 +37,7 @@ sitemap default label="Casa Gorni"
     {
         Switch item=SwitchLuciNataleRinghieraGiardino 
         Switch item=SwitchLuciNataleAlberoGiardino
-        Switch item=SwitchLuciNataleAlberoSala
+        //Switch item=SwitchLuciNataleAlberoSala
     }
 	Frame label="Prese Comandate" 
     {
